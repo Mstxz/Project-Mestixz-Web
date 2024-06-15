@@ -18,4 +18,24 @@ header {
     align-items: center;
     text-transform: uppercase;
     letter-spacing: 3px;
+    position: fixed;
+    width: 100%;
+}
+
+header ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 2rem;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease-in-out;
+
+}
+
+header a:hover {
+    text-shadow: 0 0 10px white;
 }
