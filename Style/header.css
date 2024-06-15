@@ -10,8 +10,7 @@ body {
 }
 
 header {
-    background-color: #333;
-    color: white;
+    color: aliceblue;
     height: 100px;
     display: flex;
     justify-content: space-around;
@@ -20,6 +19,7 @@ header {
     letter-spacing: 3px;
     position: fixed;
     width: 100%;
+    z-index: 100;
 }
 
 header ul {
@@ -31,11 +31,11 @@ header ul {
 
 header a {
     text-decoration: none;
-    color: white;
+    color: aliceblue;
     transition: all 0.3s ease-in-out;
 
 }
 
 header a:hover {
-    text-shadow: 0 0 10px white;
+    text-shadow: 0 0 10px aliceblue;
 }
