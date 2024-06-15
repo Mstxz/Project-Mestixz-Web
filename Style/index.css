@@ -50,6 +50,42 @@
     width: 50%;
 }
 
+/*Games*/
+.games {
+    background-image: linear-gradient(transparent 1%, #212128 20%);
+    color: white;
+    padding: 10%;
+}
+
+.games h1 {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 40px;
+}
+
+.game-selection {
+    border: 1px solid aliceblue;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.game-selection .content {
+    width: 20%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.game-selection .content h2 {
+    font-size: 30px;
+}
+
+.game-selection .content p {
+    font-size: 20px;
+}
+
 /*Animation*/
 @keyframes mestixzanimate {
     50% {
