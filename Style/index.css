@@ -1,0 +1,41 @@
+.banner {
+    position: relative;
+    top: 100px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: calc(100vh - 200px);
+    z-index: 0;
+    user-select: none;
+}
+
+.banner .name {
+    color: aliceblue;
+    text-transform: uppercase;
+    text-shadow: 0 0 50px aliceblue;
+}
+
+.banner h4 {
+    font-size: 40px;
+    letter-spacing: 10px;
+}
+
+.banner h1 {
+    font-size: 200px;
+    letter-spacing: 50px;
+    animation: mestixzanimate 5s linear infinite;
+}
+
+/*Animation*/
+@keyframes mestixzanimate {
+    25% {
+        transform: 
+        translateY(10px);
+    }
+    75% {
+        transform: 
+        translateY(-10px);
+    }
+}
