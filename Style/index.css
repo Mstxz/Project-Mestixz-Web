@@ -25,17 +25,13 @@
 .banner h1 {
     font-size: 200px;
     letter-spacing: 50px;
-    animation: mestixzanimate 5s linear infinite;
+    animation: mestixzanimate 5s ease-in-out infinite;
 }
 
 /*Animation*/
 @keyframes mestixzanimate {
-    25% {
+    50% {
         transform: 
-        translateY(10px);
-    }
-    75% {
-        transform: 
-        translateY(-10px);
+        translateY(-20px);
     }
 }
