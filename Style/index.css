@@ -1,12 +1,13 @@
+/*banner*/
 .banner {
     position: relative;
-    top: 100px;
+    top: 50%;
     display: flex;
     text-align: center;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: calc(100vh - 200px);
+    height: calc(100vh - 100px);
     z-index: 0;
     user-select: none;
 }
@@ -26,6 +27,27 @@
     font-size: 200px;
     letter-spacing: 50px;
     animation: mestixzanimate 5s ease-in-out infinite;
+}
+
+/*about*/
+.about {
+    position: relative;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    top: 100px;
+    color: aliceblue;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.about h1 {
+    font-size: 50px;
+}
+
+.about p {
+    width: 50%;
 }
 
 /*Animation*/
