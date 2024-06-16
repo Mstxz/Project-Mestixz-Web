@@ -26,10 +26,11 @@
 .banner h1 {
     font-size: 200px;
     letter-spacing: 50px;
-    animation: mestixzanimate 5s ease-in-out infinite;
+    animation: banneranimate 3s, mestixzanimate 5s ease-in-out infinite;
 }
 
 /*about*/
+
 .about {
     position: relative;
     display: flex;
@@ -52,20 +53,21 @@
 
 /*Games*/
 .games {
-    background-image: linear-gradient(transparent 1%, #212128 20%);
+    background-color: #335;
     color: white;
-    padding: 10%;
+    padding:  10% 5%;
 }
 
 .games h1 {
     text-transform: uppercase;
     letter-spacing: 3px;
-    font-size: 40px;
+    font-size: 60px;
+    text-align: center;
 }
 
 .game-selection {
     border: 1px solid aliceblue;
-    padding: 30px;
+    padding: 20px;
     display: flex;
     justify-content: space-around;
 }
@@ -93,3 +95,8 @@
         translateY(-20px);
     }
 }
+
+@keyframes banneranimate { 
+    from{ opacity:0 } 
+    to{ opacity:1 }
+  }
