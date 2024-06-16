@@ -13,8 +13,10 @@ body {
     background-image: linear-gradient(rgba(10,10,10,0.2), rgba(10,10,10,1)), url("https://i.pinimg.com/originals/e1/94/ed/e194ede516b88c41eaeba1088b12296b.jpg");
     background-size: cover;
     background-attachment: fixed;
+    overflow-x: hidden;
 }
 
+/*Header*/
 header {
     color: aliceblue;
     height: 100px;
@@ -49,3 +51,25 @@ header a:hover {
 section {
     height: 1000px;
 }
+
+/*Scroll Bar*/
+/* width */
+::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: black;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: transparent;
+    border: 1px solid aliceblue;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: aliceblue;
+  }
