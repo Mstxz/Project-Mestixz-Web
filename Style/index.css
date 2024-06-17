@@ -68,27 +68,20 @@
     text-align: center;
 }
 
-.game-selection {
-    border: 1px solid aliceblue;
-    padding: 20px;
+.selection {
+    height: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
-.game-selection .content {
-    width: 20%;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-}
-
-.game-selection .content h2 {
-    font-size: 30px;
-}
-
-.game-selection .content p {
-    font-size: 20px;
+.selection-content {
+    border-radius: 50%;
+    border: 5px dashed aliceblue;
+    border-bottom: 5px solid aliceblue;
+    border-right: 5px solid aliceblue;
+    width: 250px;
+    height: 250px;
 }
 
 /*Animation*/
