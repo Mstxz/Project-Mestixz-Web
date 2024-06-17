@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Playfair Display", serif;
+    user-select: none;
 }
 
 html {
@@ -10,7 +11,7 @@ html {
 }
 
 body {
-    background-image: linear-gradient(rgba(10,10,10,0.2), rgba(10,10,10,1)), url("https://i.pinimg.com/originals/1c/53/d3/1c53d3383cc64042e3308d6abba7753b.jpg");
+    background-image: linear-gradient(rgba(10,10,10,0.2), rgba(10,10,10,1)), url("https://i.pinimg.com/originals/dc/03/d6/dc03d6e820f9ade4dd39a32a36fa23ba.jpg");
     background-size: cover;
     background-attachment: fixed;
     overflow-x: hidden;
